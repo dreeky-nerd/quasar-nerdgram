@@ -1,0 +1,32 @@
+// app global css in SCSS form
+.text-gram-hotel{
+  font-family: 'Grand Hotel', 'Roboto', 'Helvertica Neue', Helvetica, Arial, sans-serif
+}
+
+.small-sceen-only{
+  @media( max-width: $breakpoint-xs-max)  {
+    display: block;
+  }
+  @media( min-width: $breakpoint-sm-min)  {
+    display: none;
+  }
+}
+
+.large-sceen-only{
+  @media( max-width: $breakpoint-xs-max)  {
+    display: none;
+  }
+  @media( min-width: $breakpoint-sm-min)  {
+    display: block;
+  }
+}
+
+.constrain{
+  max-width: 975px;
+  margin: 0 auto;
+}
+
+.constrain-more{
+  max-width: 600px;
+  margin: 0 auto;
+}
