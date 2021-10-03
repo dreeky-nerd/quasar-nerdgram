@@ -1,6 +1,6 @@
 # Nerdgram (nerdgram)
 
-A Quasar Framework app
+Vue + Quasar 예제: Instagram Clone with firebase
 
 ## Install the dependencies
 ```bash
